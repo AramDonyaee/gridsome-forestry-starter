@@ -1,13 +1,9 @@
 
-name: Build & Deploy
+name: Build and Deploy
 
-on:
-  push:	
-    branches:	
-      - master
-
+on: push
 jobs:
-  build:
+  deploy:
     runs-on: ubuntu-latest
 
     steps:
