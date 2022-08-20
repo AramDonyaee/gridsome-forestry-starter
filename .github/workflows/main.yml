@@ -22,7 +22,7 @@ jobs:
 
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@master
-        env:
+        with:
           GITHUB_TOKEN: ${{ secrets.TOKEN }}
           BASE_BRANCH: master
           BRANCH: master
