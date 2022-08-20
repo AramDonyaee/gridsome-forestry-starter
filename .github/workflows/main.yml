@@ -1,5 +1,5 @@
 
-          name: Build & Deploy
+name: Build & Deploy
 
 on:
   push:	
@@ -25,5 +25,8 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.TOKEN }}
           BASE_BRANCH: master
-          BRANCH: gh-pages
+          BRANCH: master
           FOLDER: dist
+          external_repository: AramDonyaee/aramdonyaee.github.io
+          user_name: adonyaee
+          user_email: adonyaee@yahoo.com
